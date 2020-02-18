@@ -111,6 +111,10 @@ away.
 
     Deletes a key out of the cache.
 
+* `delete(key)`
+
+    Alias for `del(key)`
+
 * `reset()`
 
     Clear the cache entirely, throwing away all values.

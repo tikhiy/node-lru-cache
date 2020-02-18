@@ -256,6 +256,8 @@ class LRUCache {
   }
 }
 
+LRUCache.prototype.delete = LRUCache.prototype.del;
+
 const get = (self, key, doUse) => {
   const node = self[CACHE].get(key)
   if (node) {
